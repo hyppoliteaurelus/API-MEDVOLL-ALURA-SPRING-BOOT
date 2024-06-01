@@ -15,8 +15,22 @@ Este projeto é uma API RESTful para gerenciar médicos e seus respectivos dados
 - Maven
 
 ## Clone o Repositório:
-git clone https://github.com/seu-usuario/projeto-medvoll.git
-cd projeto-medvoll
+git clone https://github.com/hyppoliteaurelus/API-MEDVOLL-ALURA-SPRING-BOOT.git
+
+## Banco de Dados
+
+O projeto está configurado para usar o banco de dados H2 em memória para desenvolvimento e testes. O console do H2 pode ser acessado em `http://localhost:8080/h2-console` com as seguintes configurações:
+
+- **JDBC URL:** `jdbc:h2:mem:testdb`
+- **Username:** `sa`
+- **Password:** (deixe em branco)
+)
+## Contribuição
+1. Faça um fork do projeto.
+2. Crie uma branch para sua feature (git checkout -b feature/sua-feature).
+3. Commit suas mudanças (git commit -am 'Adicione sua feature').
+4. Push para a branch (git push origin feature/sua-feature).
+5. Crie um Pull Request.
 
 ## Estrutura do Projeto
 
